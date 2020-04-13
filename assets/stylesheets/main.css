@@ -62,14 +62,13 @@ header {
 
 header section {
     height: 100vh;
-    padding: 5vh 50px;
     width: 100%;
 }
 
 #profile-pic {
     border: 1vh solid #fff;
     border-radius: 50%;
-    height: 45vh;
+    height: min(45vh, 70vw);
 }
 
 header h1 {
@@ -107,7 +106,6 @@ main p {
 main section {
     font-family: Montserrat, sans-serif;
     min-height: 100vh;
-    margin: 0 auto;
     text-align: justify;
 }
 
@@ -200,12 +198,18 @@ small {
 }
 
 @media screen and (max-width: 750px) {
+    section {
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+
     #capstone-project, #other-projects figcaption {
         text-align: justify;
     }
 
     #capstone-project figure {
         float: none;
+        margin-right: 0;
         width: 100%;
     }
 
@@ -215,11 +219,27 @@ small {
 
     #other-projects li {
         margin-top: 7vh;
-        width: 100%;
+    }
+
+    #other-projects figure {
+        width: 90vw;
     }
 }
 
 @media screen and (max-width: 600px) {
+    section {
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+
+    header h1 {
+        font-size: 7vh;
+    }
+
+    main h2 {
+        font-size: 7vh;
+    }
+
     main section,
     #capstone-project,
     #other-projects figcaption {
@@ -231,6 +251,7 @@ small {
     }
 
     footer .social-icons {
+        flex-wrap: wrap;
         width: 100%;
     }
 }

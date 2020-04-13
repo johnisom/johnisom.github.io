@@ -6,7 +6,7 @@ Whitespace Reset.
 
 ## TODOS ##
 
-- [ ] Make the first “section” smaller to fit better on small screens.
+- [x] Make the first “section” smaller to fit better on small screens.
 - [x] Put the “chevrons” at the same position relative to their “section”.
 - [x] Add a media query to remove the `aside` if the screen gets small enough.
 - [x] Add a media query to make the 3 optional projects stack on top of each
