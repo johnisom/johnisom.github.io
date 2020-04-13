@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/javascripts/chevron-animation.js"></script>
+    <title>John Isom | Software Engineer</title>
+  </head>
+
+  <body>
+    <aside>
+      <ul class="social-icons">
+        <li>
+          <a href="https://github.com/johnisom/" target="_blank">
+            <img src="assets/images/github-icon.svg" alt="My GitHub page">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://linkedin.com/in/john-isom/" target="_blank">
+            <img src="assets/images/linkedin-icon.svg" alt="My LinkedIn page">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://medium.com/@johnisom/" target="_blank">
+            <img src="assets/images/medium-icon.svg" alt="My Medium page">
+          </a>
+        </li>
+
+        <li>
+          <a href="assets/resume.pdf" target="_blank">
+            <img src="assets/images/resume-icon.svg" alt="My résumé">
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:john&commat;johnisom&period;dev">
+            <img src="assets/images/mail-icon.svg" alt="Email me">
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <header> <!-- id="top" is for scrolling with chevron -->
+      <section>
+        <img id="profile-pic" src="assets/images/placeholder-icon.gif"
+             alt="A profile picture of John" title="My face">
+        <h1>Hi. I’m <b>John</b>.</h1>
+        <p>
+          I’m a <b>software engineer</b> based in Salt
+          Lake City, UT.
+        </p>
+      </section>
+
+      <a class="chevron" href="#about-me">▾</a>
+      <!--
+          TODO: animate this bouncing up and down. Change the vertical
+          offset, text shadow blur, and text shadow offsets.
+        -->
+    </header>
+
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+
+        <p>
+          I have experience with <b>Ruby</b>, <b>JavaScript</b>,
+          <b>React</b>/<b>Redux</b>, <b>Rails</b>, <b>SQL</b>, <b>jQuery</b>,
+          <b>Handlebars.js</b>, <b>HTML5</b>, <b>CSS3</b>, and networking with
+          <b>HTTP</b>. I’m also proficient with <b>GNU/Linux</b> systems,
+          <b>Emacs</b>, <b>Windows</b> systems, and <b>Git</b>.
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          vulputate, arcu sit amet maximus eleifend, diam arcu ultricies est,
+          at sollicitudin <b>nulla</b> dui in lacus. Donec quis enim
+          pellentesque, viverra justo eget, lobortis augue. In interdum at
+          dolor in ultrices. Donec <b>lobortis</b> feugiat nulla et
+          dignissim. Proin sodales <b>urna eget rutrum</b> malesuada. Cras
+          finibus mauris ut risus malesuada, tempor efficitur quam
+          pellentesque. Quisque lobortis hendrerit tellus at
+          consectetur. Mauris ut dictum turpis, nec semper orci.
+        </p>
+        <br>
+        <p>
+          I’m the creator of <a href="#">Capstone Project</a>, lorem ipsum
+          dolor sit amet, consectetur.
+        </p>
+
+        <a class="chevron" href="#capstone-project">▾</a>
+      </section>
+
+      <section id="capstone-project">
+        <h2>Capstone Project</h2>
+        <figure>
+          <a href="#">
+            <img src="assets/images/placeholder.gif"
+                 alt="Capstone Project">
+          </a>
+        </figure>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          vulputate, arcu sit amet maximus eleifend, diam arcu ultricies est,
+          at sollicitudin <b>nulla</b> dui in lacus. Donec quis enim
+          pellentesque, viverra justo eget, lobortis augue. In interdum at
+          dolor in ultrices. Donec <b>lobortis</b> feugiat nulla et
+          dignissim. Proin sodales <b>urna eget rutrum</b> malesuada. Cras
+          finibus mauris ut risus malesuada, tempor efficitur quam
+          pellentesque. Quisque lobortis hendrerit tellus at
+          consectetur. Mauris ut dictum turpis, nec semper orci.
+        </p>
+        <br>
+        <p>
+          Curabitur elementum gravid aleo, sagittis efficitur nisl rutrum
+          vulputate. Quisque aliquam orci a lectus faucibus, non suscipit
+          felis blandit. Maecenas in <b>erat</b> vehicula velit viverra
+          euismod eu nec massa. Duis eget nisl id sapien vehicula
+          imperdiet. <b>Vestibulum vel fermentum</b> ipsum, id malesuada
+          dui. Quisque fringilla efficitur neque in porta. Suspendisse tortor
+          tellus, maximus ultricies vulputate vel, pharetra sit amet diam. Nam
+          eget pulvinar leo, ac vehicula nisi. Aenean pellentesque consequat
+          molestie. Etiam ac consectetur urna. Donec lorem mauris, varius non
+          eros in, ultrices iaculis massa. Maecenas vitae gravida sem. Sed
+          erat nisi, pulvinar consequat condimentum ut, venenatis et tellus.
+        </p>
+
+        <a class="chevron" href="#other-projects">▾</a>
+      </section>
+
+      <section id="other-projects">
+        <h2>Other Projects</h2>
+
+        <ul>
+          <li>
+            <figure>
+              <img src="assets/images/placeholder.gif" alt="The">
+              <figcaption>
+                <b>The Time Manager</b>, consectetur adipiscing
+                elit. Suspendisse vulputate, arcu sit amet maximus eleifend,
+                diam arcu ultricies est, at sollicitudin nulla dui in lacus.
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="assets/images/placeholder.gif">
+              <figcaption>
+                <b>A Capstone Prep Project</b>, consectetur adipiscing
+                elit. Suspendisse vulputate, arcu sit amet maximus eleifend,
+                diam arcu ultricies est, at sollicitudin nulla dui in lacus.
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="assets/images/placeholder.gif">
+              <figcaption>
+                <b>Another Capstone Prep Project</b>, consectetur adipiscing
+                elit.  Suspendisse vulputate, arcu sit amet maximus eleifend,
+                diam arcu ultricies est, at sollicitudin nulla dui in lacus.
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+
+        <a class="chevron" href="#footer">▾</a>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>
+        Got any questions or want to reach out? Email me at
+        <a href="mailto:john&commat;johnisom&period;dev">john&commat;johnisom&period;dev</a>.
+      </p>
+
+      <ul class="social-icons">
+        <li>
+          <a href="https://github.com/johnisom/" target="_blank">
+            <img src="assets/images/github-icon.svg" alt="My GitHub page">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://linkedin.com/in/john-isom/" target="_blank">
+            <img src="assets/images/linkedin-icon.svg" alt="My LinkedIn page">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://medium.com/@johnisom/" target="_blank">
+            <img src="assets/images/medium-icon.svg" alt="My Medium page">
+          </a>
+        </li>
+
+        <li>
+          <a href="assets/resume.pdf" target="_blank">
+            <img src="assets/images/resume-icon.svg" alt="My résumé">
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:john&commat;johnisom&period;dev">
+            <img src="assets/images/mail-icon.svg" alt="Email me">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        Built from scratch, with <b>♥</b> by me.
+        <small>© 2020 <b>John Isom</b></small>
+      </p>
+    </footer>
+  </body>
+</html>
