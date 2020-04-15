@@ -12,3 +12,7 @@ Whitespace Reset.
 - [x] Add a media query to make the 3 optional projects stack on top of each
       other if the screen gets small enough. Currently, they try to squeeze in
       and it doesn’t quite work out.
+- [ ] Per community suggestion, make the contrast between the sidebar icons
+      and the dark blue background more apparent.
+- [ ] Make it so only the sidebar social icons are shown or only the footer,
+      never both at the same time. It looks a bit weird.
