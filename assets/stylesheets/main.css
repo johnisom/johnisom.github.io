@@ -12,11 +12,12 @@
 
 html {
     background-color: var(--maestro-light-grey);
+    color: var(--maestro-black);
     scroll-behavior: smooth;
 }
 
 a {
-    /*color: #77a;*/
+    color: var(--maestro-grey);
     text-decoration: none;
 }
 
@@ -34,7 +35,7 @@ a:hover {
 }
 
 a:active {
-    /*color: #f45866;*/
+    color: var(--maestro-grey);
     outline: none;
 }
 
@@ -75,7 +76,7 @@ section {
 }
 
 header {
-    background-color: var(--maestro-grey);
+    background-color: var(--maestro-black);
     color: var(--maestro-white);
     font-family: RiftSoft, serif;
     text-align: center;
@@ -144,8 +145,8 @@ main img {
 }
 
 #capstone-project {
-    background-color: var(--maestro-black);
-    color: var(--maestro-white);
+    background-color: var(--maestro-white);
+    color: var(--maestro-black);
 }
 
 #capstone-project figure {
@@ -187,7 +188,7 @@ main img {
 }
 
 footer {
-    background-color: var(--maestro-grey);
+    background-color: var(--maestro-black);
     color: var(--maestro-white);
     font-family: RiftSoft, sans-serif;
     font-size: 1.2rem;
@@ -196,7 +197,7 @@ footer {
 }
 
 footer a {
-    /*color: #aaf;*/
+    color: var(--maestro-grey);
 }
 
 footer .social-icons {
