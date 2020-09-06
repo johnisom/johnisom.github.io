@@ -70,6 +70,10 @@ body > aside .social-icons {
     width: 70px;
 }
 
+.social-icons img:hover {
+    background-color: var(--maestro-red);
+}
+
 section {
     padding: 7vh 10vw calc(7vh + 50px);
     position: relative;
