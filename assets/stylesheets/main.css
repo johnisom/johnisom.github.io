@@ -172,6 +172,7 @@ a.button:hover {
     filter: brightness(120%);
     padding: 35px;
     width: 27%;
+    margin-bottom: -5px;
     margin-top: 45px;
     text-decoration: none;
     transition-duration: 0.1s;
