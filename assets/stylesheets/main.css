@@ -67,7 +67,7 @@ body > aside .social-icons {
     border-radius: 10px;
     display: block;
     padding: 10px;
-    width: 70px;
+    width: min(12vw, 70px);
 }
 
 .social-icons img:hover {
@@ -82,7 +82,7 @@ section {
 header {
     background-color: var(--maestro-black);
     color: var(--maestro-white);
-    font-family: RiftSoft, serif;
+    font-family: Roboto, serif;
     text-align: center;
 }
 
@@ -102,6 +102,12 @@ header h1 {
 }
 
 header p {
+    font-size: 2vh;
+    margin: 20px 0;
+}
+
+header p.subtitle {
+    font-family: RiftSoft, serif;
     font-size: 4vh;
 }
 
@@ -220,6 +226,10 @@ small {
         display: none;
     }
 
+    #profile-pic {
+        height: min(35vh, 65vw);
+    }
+
     footer > .social-icons {
         display: flex;
     }
@@ -271,6 +281,10 @@ small {
     section {
         padding-left: 2vh;
         padding-right: 2vh;
+    }
+
+    #profile-pic {
+        height: min(30vh, 50vw);
     }
 
     header h1 {
