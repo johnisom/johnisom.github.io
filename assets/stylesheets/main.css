@@ -153,6 +153,35 @@ main img {
     width: 100%;
 }
 
+a.button {
+    border-radius: 7px;
+    box-shadow: 5px 5px 8px #0005;
+    display: block;
+    font-family: Rift, sans-serif;
+    font-size: 2rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    transition-duration: 0.1s;
+    padding: 30px 0;
+    width: 25%;
+}
+
+a.button:hover {
+    box-shadow: 2px 2px 5px #0005;
+    filter: brightness(120%);
+    padding: 35px;
+    width: 27%;
+    margin-top: 45px;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.call-to-action {
+    background-color: var(--maestro-red);
+    color: var(--maestro-white);
+}
+
 #capstone-project {
     background-color: var(--maestro-white);
     color: var(--maestro-black);
@@ -200,9 +229,13 @@ footer {
     background-color: var(--maestro-black);
     color: var(--maestro-white);
     font-family: RiftSoft, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 5vh 10vw;
     text-align: center;
+}
+
+footer p {
+    margin: 20px 0;
 }
 
 footer .social-icons {
