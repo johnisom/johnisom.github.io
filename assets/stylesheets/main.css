@@ -1,14 +1,33 @@
+:root {
+  --maestro-red: #900c3f;
+  --maestro-white: #f5f7ff;
+  --maestro-black: #313133;
+  --maestro-grey: #696a6e;
+  --maestro-light-grey: #9d9ea3;
+}
+
 * {
     box-sizing: border-box;
 }
 
 html {
+    background-color: var(--maestro-light-grey);
+    color: var(--maestro-black);
     scroll-behavior: smooth;
 }
 
 a {
-    color: #77a;
+    color: var(--maestro-grey);
     text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Rift;
 }
 
 a:hover {
@@ -16,12 +35,12 @@ a:hover {
 }
 
 a:active {
-    color: #f45866;
+    color: var(--maestro-grey);
     outline: none;
 }
 
 b {
-    color: #f45866;
+    color: var(--maestro-red);
     font-weight: bold;
 }
 
@@ -44,7 +63,7 @@ body > aside .social-icons {
 }
 
 .social-icons img {
-    background-color: #fff;
+    background-color: var(--maestro-white);
     border-radius: 10px;
     display: block;
     padding: 10px;
@@ -57,9 +76,9 @@ section {
 }
 
 header {
-    background-color: #00496f;
-    color: #fff;
-    font-family: Merriweather, serif;
+    background-color: var(--maestro-black);
+    color: var(--maestro-white);
+    font-family: RiftSoft, serif;
     text-align: center;
 }
 
@@ -85,7 +104,7 @@ header p {
 
 .chevron {
     bottom: 25px;
-    color: #f45866;
+    color: var(--maestro-red);
     display: inline-block;
     font-size: 10vh;
     height: 50px;
@@ -99,7 +118,6 @@ header p {
 }
 
 .chevron:hover {
-    color: #f23b4b;
     text-decoration: none;
 }
 
@@ -108,7 +126,8 @@ main p {
 }
 
 main section {
-    font-family: Montserrat, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
     min-height: 100vh;
     text-align: justify;
 }
@@ -126,8 +145,8 @@ main img {
 }
 
 #capstone-project {
-    background-color: #023;
-    color: #fff;
+    background-color: var(--maestro-white);
+    color: var(--maestro-black);
 }
 
 #capstone-project figure {
@@ -169,16 +188,16 @@ main img {
 }
 
 footer {
-    background-color: #00496f;
-    color: #fff;
-    font-family: Merriweather, sans-serif;
+    background-color: var(--maestro-black);
+    color: var(--maestro-white);
+    font-family: RiftSoft, sans-serif;
     font-size: 1.2rem;
     padding: 5vh 10vw;
     text-align: center;
 }
 
 footer a {
-    color: #aaf;
+    color: var(--maestro-grey);
 }
 
 footer .social-icons {
@@ -277,3 +296,4 @@ small {
         width: 100%;
     }
 }
+
