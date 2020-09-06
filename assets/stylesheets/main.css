@@ -164,14 +164,14 @@ a.button {
     text-align: center;
     transition-duration: 0.1s;
     padding: 30px 0;
-    width: 25%;
+    width: 35%;
 }
 
 a.button:hover {
     box-shadow: 2px 2px 5px #0005;
     filter: brightness(120%);
-    padding: 35px;
-    width: 27%;
+    padding: 35px 0;
+    width: 37%;
     margin-bottom: -5px;
     margin-top: 45px;
     text-decoration: none;
@@ -250,6 +250,14 @@ small {
 }
 
 @media screen and (max-width: 1200px) {
+    a.button {
+        width: 45%;
+    }
+
+    a.button:hover {
+        width: 49%;
+    }
+
     #other-projects figcaption {
         text-align: center;
     }
@@ -262,6 +270,14 @@ small {
 
     #profile-pic {
         height: min(35vh, 65vw);
+    }
+
+    a.button {
+        width: 55%;
+    }
+
+    a.button:hover {
+        width: 60%;
     }
 
     footer > .social-icons {
@@ -296,6 +312,14 @@ small {
         float: none;
         margin-right: 0;
         width: 100%;
+    }
+
+    a.button {
+        width: 80%;
+    }
+
+    a.button:hover {
+        width: 85%;
     }
 
     #other-projects ul {
