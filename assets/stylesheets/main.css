@@ -1,9 +1,9 @@
 :root {
-  --maestro-red: #900c3f;
-  --maestro-white: #f5f7ff;
-  --maestro-black: #313133;
-  --maestro-grey: #696a6e;
-  --maestro-light-grey: #9d9ea3;
+    --maestro-red: #900c3f;
+    --maestro-white: #f5f7ff;
+    --maestro-black: #313133;
+    --maestro-grey: #696a6e;
+    --maestro-light-grey: #9d9ea3;
 }
 
 * {
@@ -17,7 +17,8 @@ html {
 }
 
 a {
-    color: var(--maestro-grey);
+    color: var(--maestro-red);
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -27,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rift;
+    font-family: Rift;
 }
 
 a:hover {
@@ -40,7 +41,6 @@ a:active {
 }
 
 b {
-    color: var(--maestro-red);
     font-weight: bold;
 }
 
@@ -88,7 +88,6 @@ header section {
 }
 
 #profile-pic {
-    border: 1vh solid #fff;
     border-radius: 50%;
     height: min(45vh, 70vw);
 }
@@ -196,10 +195,6 @@ footer {
     text-align: center;
 }
 
-footer a {
-    color: var(--maestro-grey);
-}
-
 footer .social-icons {
     display: none;
     margin: 20px auto;
@@ -244,7 +239,8 @@ small {
         padding-right: 5vh;
     }
 
-    #capstone-project, #other-projects figcaption {
+    #capstone-project,
+    #other-projects figcaption {
         text-align: justify;
     }
 
@@ -296,4 +292,3 @@ small {
         width: 100%;
     }
 }
-
