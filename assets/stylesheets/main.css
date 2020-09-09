@@ -44,36 +44,6 @@ b {
     font-weight: bold;
 }
 
-body > aside {
-    bottom: 20vh;
-    left: 10px;
-    position: fixed;
-    top: 20vh;
-    z-index: 1;
-}
-
-body > aside .social-icons {
-    flex-direction: column;
-    height: 100%;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.social-icons img {
-    background-color: var(--maestro-white);
-    border-radius: 10px;
-    display: block;
-    padding: 10px;
-    width: min(12vw, 70px);
-}
-
-.social-icons img:hover {
-    background-color: var(--maestro-red);
-}
-
 section {
     padding: 7vh 10vw calc(7vh + 50px);
     position: relative;
@@ -239,10 +209,23 @@ footer p {
     margin: 20px 0;
 }
 
-footer .social-icons {
-    display: none;
+.social-icons {
+    display: flex;
+    justify-content: space-between;
     margin: 20px auto;
-    width: 60%;
+    width: 40%;
+}
+
+.social-icons img {
+    background-color: var(--maestro-white);
+    border-radius: 3px;
+    display: block;
+    padding: 3px;
+    width: min(10vw, 50px);
+}
+
+.social-icons img:hover {
+    background-color: var(--maestro-red);
 }
 
 small {
@@ -261,6 +244,10 @@ small {
     #other-projects figcaption {
         text-align: center;
     }
+
+    footer .social-icons {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -278,10 +265,6 @@ small {
 
     a.button:hover {
         width: 60%;
-    }
-
-    footer > .social-icons {
-        display: flex;
     }
 
     #capstone-project {
