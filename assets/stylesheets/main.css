@@ -171,6 +171,10 @@ a.button:hover {
     width: 50%;
 }
 
+#maestro figure img {
+    max-height: 70vh;
+}
+
 #other-projects ul {
     display: flex;
     justify-content: space-between;
@@ -198,6 +202,10 @@ a.button:hover {
 
 #other-projects h4 {
     font-size: 1.4rem;
+
+    #maestro figure img {
+        max-height: 70vh;
+    }
     margin-bottom: 10px;
     text-align: center;
 }
