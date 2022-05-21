@@ -1,7 +1,9 @@
 :root {
     --maestro-red: #900c3f;
     --maestro-white: #f5f7ff;
+    --maestro-white-semiopaque: #f5f7ff80;
     --maestro-black: #313133;
+    --maestro-black-semiopaque: #31313380;
     --maestro-grey: #696a6e;
     --maestro-light-grey: #9d9ea3;
 }
@@ -11,7 +13,7 @@
 }
 
 html {
-    background-color: var(--maestro-light-grey);
+    background-color: var(--maestro-white);
     color: var(--maestro-black);
     scroll-behavior: smooth;
 }
@@ -87,6 +89,11 @@ header p.subtitle {
     font-size: 4vh;
 }
 
+hr {
+    border: var(--maestro-red) solid 2px;
+    border-radius: 2px;
+}
+
 .chevron {
     bottom: 25px;
     color: var(--maestro-red);
@@ -96,10 +103,17 @@ header p.subtitle {
     left: 50%;
     margin-left: -15px;
     position: absolute;
-    text-shadow: 5px 5px 5px #000;
     vertical-align: 10px;
     width: 30px;
     z-index: 1;
+}
+
+.chevron.light-background {
+    text-shadow: 5px 5px 5px var(--maestro-black-semiopaque);
+}
+
+.chevron.dark-background {
+    text-shadow: 5px 5px 5px var(--maestro-white-semiopaque);
 }
 
 .chevron:hover {
@@ -160,8 +174,8 @@ a.button:hover {
 }
 
 #maestro {
-    background-color: var(--maestro-white);
-    color: var(--maestro-black);
+    background-color: var(--maestro-black);
+    color: var(--maestro-white);
 }
 
 #maestro figure {
@@ -173,6 +187,7 @@ a.button:hover {
 
 #maestro figure img {
     max-height: 70vh;
+    background-color: var(--maestro-white);
 }
 
 #other-projects ul {
@@ -202,10 +217,6 @@ a.button:hover {
 
 #other-projects h4 {
     font-size: 1.4rem;
-
-    #maestro figure img {
-        max-height: 70vh;
-    }
     margin-bottom: 10px;
     text-align: center;
 }
