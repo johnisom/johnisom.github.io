@@ -264,6 +264,17 @@ small {
     font: inherit;
 }
 
+@media screen and (min-width: 2000px) {
+    a.button.call-to-action {
+        position: absolute;
+        left: 52%;
+    }
+
+    a.button.call-to-action:hover {
+        left: 51%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     a.button {
         width: 45%;
