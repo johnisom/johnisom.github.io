@@ -190,37 +190,6 @@ a.button:hover {
     background-color: var(--maestro-white);
 }
 
-#other-projects ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-#other-projects li {
-    flex-basis: 30%;
-}
-
-#other-projects img {
-    margin-bottom: 20px;
-}
-
-#other-projects figcaption {
-    font-size: 1.2rem;
-    margin: 0 10px 0;
-}
-
-#other-projects h3 {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-#other-projects h4 {
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 footer {
     background-color: var(--maestro-black);
     color: var(--maestro-white);
